@@ -2,9 +2,9 @@
 
 
 /**
- * main - prints "Programming is like building a multilingual 
- * puzzle, followed by a newline.
+ * main - A  program that prints a line with the put function.
  * Return: Always 0.
+ *
  */
 
 
