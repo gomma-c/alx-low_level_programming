@@ -4,7 +4,7 @@
 
 /**
  * main - A program thats prints a text accoring.
- *
+ *Return: Always 0.
  */
 
 int main(void)
