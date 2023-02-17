@@ -3,15 +3,15 @@
 #include <time.h>
 
 /**
- * main - A program thats prints a text accoring.
+ * main - A program thats prints a text accoring to positive and negative.
  *Return: Always 0.
  *
  */
 
 int main(void)
-
 {
 	int n, lastd;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	lastd = n % 10;
@@ -29,4 +29,4 @@ int main(void)
 		printf("Last digit of %d is %d and is less than 6 not 0\n", n, lastd);
 	}
 	return (0);
-}    
+}	
