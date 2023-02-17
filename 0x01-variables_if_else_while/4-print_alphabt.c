@@ -1,25 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 
 /**
- * main - Entry point.
+ * main -Entry point.
  * Return: Always 0.
  *
  */
 
 int main(void)
-{
-	char low, e, q;
 
-	e = 'e';
-	q = 'q';
-	
-	for (low = 'a'; low <= 'Z'; low++)	
+{
+	char ch ='a';
+
+
+	while (ch <= 'z')
 	{
-	if (low != e && low != q)
-	putchar(low);
+		if ((ch != 'e') && (ch != 'q'))
+		{
+			putchar(ch);
+		}
+		ch++;
 	}
 	putchar('\n');
 	return (0);
-}																	
+}
