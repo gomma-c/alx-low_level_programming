@@ -9,6 +9,7 @@
  */
 
 int main(void)
+
 {
 	char low;
 
