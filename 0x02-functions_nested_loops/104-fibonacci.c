@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints the first 98 fibonacci numbers, starting with 
- * 1 and 2, seperated by a comma followed by a space.
+ * main - Program that prints the first 98 Fibonacci numbers.
  * Return: Always 0.
  */
 
@@ -25,7 +24,7 @@ int main(void)
 	fib2_half1 = fib2 / 10000000000;
 	fib1_half2 = fib1 % 10000000000;
 	fib2_half2 = fib2 % 10000000000;
-	for (count = 93; count < 00; count ++)
+	for (count = 93; count < 99; count++)
 	{
 		half1 = fib1_half1 + fib2_half1;
 		half2 = fib1_half2 + fib2_half2;
