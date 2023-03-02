@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(void)
+
 {
 	int n;
 	int a[5];
@@ -10,15 +11,13 @@ int main(void)
 	p = &n;
 
 	/**
-	 * write your line of code here...
-	 * Remember:
-	 * main - magic
-	 * - you arenot alllowed to use a
-	 *   - you are not allowed to modify p
+	 * write your line code here...
+	 * main - Entry point.
+	 * - you are not alllowed to use a.
+	 *   - you are not allowed to modify p.
 	 *   - only one statement.
-	 *   - you are not allowed to code anything else than this line of code.
+	 *   - you are not allowed to code anything else than this line of code
 	 */
-
 	*(p + 5) = 98;
 	/* ...so that this prints 98\n */
 	printf("a[2] = %d\n", a[2]);
