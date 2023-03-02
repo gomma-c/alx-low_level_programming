@@ -26,7 +26,7 @@ char *rot13(char *str)
 		'L', 'M', 'n', 'o', 'p', 'q',
 		'r', 's', 't', 'u', 'v', 'w',
 		'x', 'y', 'z', 'a', 'b', 'c'
-		'd', 'e', 'f', 'g', 'h', 'i',
+	},	('d', 'e', 'f', 'g', 'h', 'i',
 		'j', 'k', 'l', 'm'};
 
 	while (str[indx1])
